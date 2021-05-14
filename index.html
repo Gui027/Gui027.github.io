@@ -3,45 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <title>Portifólio</title>
+    <style>
+
+    .name {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #592A25;}
+        
+
+    .about {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+        text-align: justify;}
+            
+    body {
+        background-color:#F2C6AC;
+            }
+
+    .from {
+        font-weight: 900;
+    }
+
+    .dete {
+        font-size: 25px;
+    }
+
+    .proa {
+        font-size: 30px;
+    }
+
+    .auto {
+        font-size: 35px;
+    }
+
+    .inte {
+        font-size: 40px;
+    }
+
+    .cria {
+        font-size: 45px;
+    }
+
+    .capa {
+        font-size: 50px;
+    }
+
+    .button {
+    background-color:#BF6989; /* Pink */
+    border:none;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 25px;
+
+}
+
+#ul {color:#8C5D5D;}
+
+.botao{
+     background: -webkit-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -moz-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -o-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -ms-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     border: 1px solid #CCCCCE;
+     border-radius: 20px;
+     box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+                   0 2px 7px rgba(0, 0, 0, 0.2);
+     color:#592A25;
+     display: block;
+     font-family: "Trebuchet MS";
+     font-size: 16px;
+     font-weight: bold;
+     line-height: 20px;
+     text-align: center;
+     text-decoration: none;
+     text-transform: uppercase;
+     text-shadow:1px 1px 0#f396cf;
+     padding: 5px 15px;
+     position: relative;
+     width: 200px;
+    }
+
+
+    .botao1{
+     background: -webkit-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -moz-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -o-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: -ms-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     background: linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+     border: 1px solid #CCCCCE;
+     border-radius: 20px;
+     box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+                   0 2px 7px rgba(0, 0, 0, 0.2);
+     color:#592A25;
+     display: block;
+     font-family: "Trebuchet MS";
+     font-size: 16px;
+     font-weight: bold;
+     line-height: 20px;
+     text-align: center;
+     text-decoration: none;
+     text-transform: uppercase;
+     text-shadow:1px 1px 0#f396cf;
+     padding: 5px 15px;
+     position: relative;
+     width: 200px;
+    }
+
+    .habi {color: #551109;}
+
+    .veja {color: #592A25;}
+    .canais {color: #592A25;}
+
+
+   
+
+
+    </style>
 </head>
 <body>
      
-    <h1>Guilherme Rodrigues Galdino</h1>
+    <h1 class="name">Guilherme Rodrigues Galdino</h1>
 
     <img src="foto.jpg" width="400px" id="foto">
     
     <br>
 
-    <a href="#sobre">SOBRE</a>
-    <a href="#habilidades">HABILIDADES</a>
-    <a href="#canais">CANAIS</a>
+    <a class="botao1" href="#sobre">SOBRE ⤵</a> <br>
+    <a class="botao1" href="#habilidades">HABILIDADES ⤵</a> <br>
+    <a class="botao1" href="#canais">CANAIS ⤵</a>
     
-    <p id="sobre"><em>Olá, meu nome é <strong>Guilherme</strong> ! Sou de Colatina - ES. Atualmente estudo <strong>desenvolvimento de software na Trybe</strong>, e também estou concluindo o bacharelado de <strong>Engenharia Mecânica no Centro Universitário do Espírito Santo (UNESC)</strong>. Apaixonado por Tecnologia e Empreendedorismo, em tempo livre curto Games, Filmes, e Youtube.    </em></p>
+    <p class="about" id="sobre"><em>Olá, meu nome é <strong>Guilherme</strong> ! <span class="from">Sou de Colatina - ES</span>. Atualmente estudo <strong>desenvolvimento de software na Trybe</strong>, e também estou concluindo o bacharelado de <strong>Engenharia Mecânica no Centro Universitário do Espírito Santo (UNESC)</strong>. Apaixonado por Tecnologia e Empreendedorismo, em tempo livre curto Games, Filmes, e Youtube.    </em></p>
 
-    <h2 id="habilidades">HABILIDADES 🙅‍♂️</h2>
+    <h2 class="habi" id="habilidades">HABILIDADES 🙅‍♂️</h2>
 
-    <ul>
-        <li><strong>Determinação</strong></li>
-        <li>Proatividade</li>
-        <li>Autoconfiança</li>
-        <li>Inteligência Emocional</li>
-        <li><strong>Criatividade e Inovação</strong></li>
-        <li> <strong>Capacidade de Adaptação</strong></li>
+    <ul id="ul">
+        <li class="dete"><strong>Determinação</strong></li>
+        <li class="proa">Proatividade</li>
+        <li class="auto">Autoconfiança</li>
+        <li class="inte">Inteligência Emocional</li>
+        <li class="cria"><strong>Criatividade e Inovação</strong></li>
+        <li class="capa"> <strong>Capacidade de Adaptação</strong></li>
     </ul>
 
-    <h2>VEJA MINHA FOTO 😊</h2>
+    <h2 class="veja" >VEJA MINHA FOTO 😊</h2>
 
-    <a href="#foto">⬆Subir⬆</a>
+    <a class="button" href="#foto">⬆Subir⬆</a>
 
-    <h2 id="canais">CANAIS QUE ACOMPANHO 📺</h2>
+    <h2 class="canais" id="canais">CANAIS QUE ACOMPANHO 📺</h2>
 
-    <a href="https://www.youtube.com/channel/UCEI44xNfQmAukxMf1kW8d5g" target="_blank">Toguro</a>
+    <a class="botao" href="https://www.youtube.com/channel/UCEI44xNfQmAukxMf1kW8d5g" target="_blank">Toguro ▶️</a>
     <br>
-    <a href="https://www.youtube.com/channel/UCYCMK_puWK2V5AtdQNIOnhw" target="_blank">Gabriel Monteiro</a>
+    <a class="botao" href="https://www.youtube.com/channel/UCYCMK_puWK2V5AtdQNIOnhw" target="_blank">Gabriel Monteiro ▶️</a>
     <br>
-    <a href="https://www.youtube.com/channel/UCdMlWnTMTgq0aPV2eZYEbbw" target="_blank">Buyanhold Brasil</a>
+    <a class="botao" href="https://www.youtube.com/channel/UCdMlWnTMTgq0aPV2eZYEbbw" target="_blank">Buyanhold Brasil ▶️</a>
     <br>
-    <a href="https://www.youtube.com/user/vaineguinhovidz" target="_blank">Raiam Santos</a>
+    <a class="botao" href="https://www.youtube.com/user/vaineguinhovidz" target="_blank">Raiam Santos ▶️</a>
 
 
 
